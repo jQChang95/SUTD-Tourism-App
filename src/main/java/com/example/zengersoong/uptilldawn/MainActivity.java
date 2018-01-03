@@ -1,0 +1,36 @@
+package com.example.zengersoong.uptilldawn;
+
+import android.content.Intent;
+import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
+import android.view.View;
+import android.widget.Button;
+
+public class MainActivity extends AppCompatActivity {
+    Button attraction,direction;
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+        attraction = (Button)findViewById(R.id.recycleAttraction);
+        direction = (Button)findViewById(R.id.recycleDirections);
+        attraction.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, RecyclePage.class);
+                startActivity(intent);
+            }
+
+        }
+        );
+        direction.setOnClickListener(new View.OnClickListener() {
+                                          @Override
+                                          public void onClick(View view) {
+                                              Intent intent = new Intent(MainActivity.this, DrawerRecycleMap.class);
+                                              startActivity(intent);
+                                          }
+
+                                      }
+        );
+    }
+}

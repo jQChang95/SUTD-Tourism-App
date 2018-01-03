@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/newbackground"
+    tools:context="com.example.zengersoong.uptilldawn.MainActivity">
+
+    <ImageView
+        android:id="@+id/uptilldawn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:contentDescription="applogo"
+        android:src="@drawable/uptilldawn" />
+
+    <Button
+        android:id="@+id/recycleAttraction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/uptilldawn"
+        android:text="Attraction"
+        android:textColor="@color/colorPrimary"
+        android:background="#E3F2FD"/>
+
+    <Button
+        android:id="@+id/recycleDirections"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/recycleAttraction"
+        android:layout_alignParentStart="true"
+        android:layout_centerHorizontal="true"
+        android:text="Directions"
+        android:textColor="@color/colorPrimary"
+        android:background="#E3F2FD"
+        />
+
+</RelativeLayout>
