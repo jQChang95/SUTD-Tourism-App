@@ -7,12 +7,12 @@ The app contains the ability to add preset locations in the app to a scheduler, 
 
 The scheduler then runs an algorithm to find the most optimal path base on the user's transport budget. 2 algorithms are provided, one faster but less accurate, the other much slower but accurate
 
-![alt text](images/upd1.jpg)
-![alt text](images/upd2.jpg)
-![alt text](images/upd3.jpg)
-![alt text](images/upd4.jpg)
-![alt text](images/upd5.jpg)
-![alt text](images/upd6.jpg)
+![alt text](images/upd1.jpg | width=100)
+![alt text](images/upd2.jpg | width=100)
+![alt text](images/upd3.jpg | width=100)
+![alt text](images/upd4.jpg | width=100)
+![alt text](images/upd5.jpg | width=100)
+![alt text](images/upd6.jpg | width=100)
 
 ## Getting Started
 
