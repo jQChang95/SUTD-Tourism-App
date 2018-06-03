@@ -1,10 +1,18 @@
 # SUTD Tourism App
 
-SUTD ISTD Term 4 Tourism App for our Android Project.
+**SUTD ISTD Term 4 Android Project:** Tourism App.
+The aim of the project was to design an application that provides tourist with basic information on places of interest in Singapore, as well as incorporate a planner for them such that they can add in locations that they want to travel to and the app will calculate the most optimal route base on their budget.
 
 The app contains the ability to add preset locations in the app to a scheduler, whilst providing information on the location.
 
-The scheduler then runs an algorithm to find the most optimal path base on the user's transport budget
+The scheduler then runs an algorithm to find the most optimal path base on the user's transport budget. 2 algorithms are provided, one faster but less accurate, the other much slower but accurate
+
+![alt text](images/upd1.jpg)
+![alt text](images/upd2.jpg)
+![alt text](images/upd3.jpg)
+![alt text](images/upd4.jpg)
+![alt text](images/upd5.jpg)
+![alt text](images/upd6.jpg)
 
 ## Getting Started
 
