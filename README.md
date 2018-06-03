@@ -6,13 +6,15 @@ The aim of the project was to design an application that provides tourist with b
 The app contains the ability to add preset locations in the app to a scheduler, whilst providing information on the location.
 
 The scheduler then runs an algorithm to find the most optimal path base on the user's transport budget. 2 algorithms are provided, one faster but less accurate, the other much slower but accurate
-<img src="images/upd1.jpg" width="100" height=auto>
-![alt text](images/upd1.jpg){:height="50%" width="50%"}
-![alt text](images/upd2.jpg){:height="50%" width="50%"}
-![alt text](images/upd3.jpg){:height="50%" width="50%"}
-![alt text](images/upd4.jpg){:height="50%" width="50%"}
-![alt text](images/upd5.jpg){:height="50%" width="50%"}
-![alt text](images/upd6.jpg){:height="50%" width="50%"}
+
+
+<img src="images/upd1.jpg" width=32% height=auto>
+<img src="images/upd2.jpg" width=32% height=auto>
+<img src="images/upd3.jpg" width=32% height=auto>
+<img src="images/upd4.jpg" width=32% height=auto>
+<img src="images/upd5.jpg" width=32% height=auto>
+<img src="images/upd6.jpg" width=32% height=auto>
+
 
 ## Getting Started
 
